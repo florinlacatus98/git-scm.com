@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 gem "octokit"
 gem "faraday-retry" # octokit soft-dependency
-gem "rss"
+gem "rss", ">= 0.3.2"
 gem "asciidoctor", "~> 2.0.0"
 gem "nokogiri"
 gem "diffy"
